@@ -27,7 +27,7 @@ while (energiaPikachu >= 0 && energiaCharmander >= 0) {
     rodadas++;
 }
 //Mostrando quantas batalhas foram necessarias
-console.log(`👌A batalha acabou vom ${rodadas} rodadas👌`)
+console.log(`👌A batalha acabou com ${rodadas} rodadas👌`)
 //Usando if e else para ver quem ganhou e printar no terminal
 if (energiaCharmander > energiaPikachu) {
     console.log("🏆 Charmander venceu a batalha com um fogo ganhador!")
